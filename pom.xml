@@ -4,7 +4,7 @@
 
     <groupId>com.calebjosue</groupId>
     <artifactId>algorithms-coursera-archetype</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>maven-archetype</packaging>
 
     <name>algorithms-coursera-archetype</name>
@@ -18,7 +18,8 @@
         <connection>scm:git:git@github.com:cruiztorresj/coursera-algorithms-archetype.git</connection>
         <developerConnection>scm:git:git@github.com:cruiztorresj/coursera-algorithms-archetype.git</developerConnection>
         <url>https://github.com/cruiztorresj/coursera-algorithms-archetype/tree/main</url>
-    </scm>
+      <tag>v1.0.0</tag>
+  </scm>
 
     <build>
         <extensions>
