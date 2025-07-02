@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.calebjosue</groupId>
-  <artifactId>algorithms-coursera-archetype</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>maven-archetype</packaging>
+    <groupId>com.calebjosue</groupId>
+    <artifactId>algorithms-coursera-archetype</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>maven-archetype</packaging>
 
-  <name>algorithms-coursera-archetype</name>
+    <name>algorithms-coursera-archetype</name>
+    <url>http://maven.apache.org</url>
 
-  <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.archetype</groupId>
-        <artifactId>archetype-packaging</artifactId>
-        <version>3.2.1</version>
-      </extension>
-    </extensions>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <artifactId>maven-archetype-plugin</artifactId>
-          <version>3.2.1</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>3.4.0</version>
+            </extension>
+        </extensions>
 
-  <url>http://maven.apache.org</url>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>3.4.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
 </project>

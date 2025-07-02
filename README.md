@@ -12,4 +12,4 @@ There are some videos I have prepared to assist you in the process.
 4. Change directory to the recently cloned repository.
 5. Execute `mvn clean install`
 6. Execute `mvn archetype:generate -DarchetypeCatalog=local`
-7. Follow the instructions, that is, answer the questions the above command will ask you.
+7. Follow the instructions, and that's it.
