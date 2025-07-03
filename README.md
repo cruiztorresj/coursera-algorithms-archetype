@@ -1,6 +1,6 @@
 # coursera-algorithms-archetype
 
-Maven Archetype to generate a starter project for the Algorithms Course taught by Robert Sedgewick and Keving Wayne, available for free in Coursera.
+Maven Archetype to generate a starter project for the Algorithms Course taught by Robert Sedgewick and Kevin Wayne, available for free in Coursera.
 
 # Using the Archetype
 You will need to have `algs4.jar` in your local Maven Repository.
